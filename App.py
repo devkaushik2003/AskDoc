@@ -4,7 +4,7 @@ import pdfplumber
 import google.generativeai as genai
 
 # 🔑 Paste your Gemini API Key here
-genai.configure(api_key="AIzaSyAmHi2CiA4Z-K5-phmyKpd0vzgljrLNUkY")
+genai.configure(api_key="#####")
 
 model = genai.GenerativeModel("gemini-2.0-flash")
 
